@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-11T19:01:14 IST" name="Suite" finished-at="2022-10-11T19:01:50 IST" duration-ms="35902">
+    <groups>
+    </groups>
+    <test started-at="2022-10-11T19:01:14 IST" name="Test" finished-at="2022-10-11T19:01:50 IST" duration-ms="35902">
+      <class name="com.vyasa.testng.basics.DataProviderDemo">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.vyasa.testng.basics.DataProviderDemo@2dde1bff]" started-at="2022-10-11T19:01:14 IST" name="OpenBrowser" finished-at="2022-10-11T19:01:18 IST" duration-ms="4384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="VerifyUserLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.vyasa.testng.basics.DataProviderDemo@2dde1bff]" started-at="2022-10-11T19:01:18 IST" name="VerifyUserLogin" data-provider="LoginData" finished-at="2022-10-11T19:01:20 IST" duration-ms="1686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blank]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserLogin -->
+        <test-method signature="VerifyUserLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.vyasa.testng.basics.DataProviderDemo@2dde1bff]" started-at="2022-10-11T19:01:20 IST" name="VerifyUserLogin" data-provider="LoginData" finished-at="2022-10-11T19:01:44 IST" duration-ms="23773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blankpass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kulkarni.prachi9834@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserLogin -->
+        <test-method signature="VerifyUserLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.vyasa.testng.basics.DataProviderDemo@2dde1bff]" started-at="2022-10-11T19:01:44 IST" name="VerifyUserLogin" data-provider="LoginData" finished-at="2022-10-11T19:01:47 IST" duration-ms="2771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrongcredentials]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prachi.kulkarni983@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserLogin -->
+        <test-method signature="VerifyUserLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.vyasa.testng.basics.DataProviderDemo@2dde1bff]" started-at="2022-10-11T19:01:47 IST" name="VerifyUserLogin" data-provider="LoginData" finished-at="2022-10-11T19:01:49 IST" duration-ms="2889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sucesslogin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kulkarni.prachi9834@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Prachi1234@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vyasa.testng.basics.DataProviderDemo@2dde1bff]" started-at="2022-10-11T19:01:49 IST" name="closeBrowser" finished-at="2022-10-11T19:01:50 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.vyasa.testng.basics.DataProviderDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
